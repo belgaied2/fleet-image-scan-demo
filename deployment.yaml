@@ -18,7 +18,7 @@ spec:
         app: fleet-image-scan-test
     spec:
       containers:
-      - image: mhassine/fleet-test:0.0.1 # {"$imagescan": "test-scan"}
+      - image: mhassine/fleet-test:0.0.1 # {"$imagescan": "fleet-test"}
         name: fleet-test
         resources: {}
 status: {}
