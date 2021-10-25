@@ -16,8 +16,8 @@ imageScans:
   tagName: fleet-test
 
   # specify secret to pull image if in private registry
-  secretRef:
-    name: docker-hub-mhassine 
+  #secretRef:
+  #  name: docker-hub-mhassine 
 
   # Specify the scan interval
   interval: 30s
