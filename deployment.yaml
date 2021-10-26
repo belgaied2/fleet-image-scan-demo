@@ -18,7 +18,7 @@ spec:
         app: fleet-image-scan-test
     spec:
       containers:
-      - image: registry.gitlab.com/mhassine-talend/fleet-test:0.0.1 # {"$imagescan": "fleet-test"}
+      - image: registry.gitlab.com/mhassine-talend/fleet-test:0.0.1 # {"$imagescan": "policy-1"}
         name: fleet-test
         resources: {}
 status: {}
