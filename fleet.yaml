@@ -10,7 +10,7 @@ imageScans:
       order: asc 
 
   # specify images to scan
-  image: "registry.gitlab.com/mhassine-talend/fleet-test:0.0.1" 
+  image: "registry.gitlab.com/mhassine-talend/fleet-test" 
 
   # Specify the tag name, it has to be unique in the same bundle
   tagName: policy-1
