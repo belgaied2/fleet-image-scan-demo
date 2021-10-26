@@ -10,7 +10,7 @@ imageScans:
       order: asc 
 
   # specify images to scan
-  image: "172.16.134.14:5000/mhassine/fleet-test" 
+  image: "registry-conti.fremont.rancherlabs.com:8443/mhassine/fleet-test" 
 
   # Specify the tag name, it has to be unique in the same bundle
   tagName: fleet-test
