@@ -18,7 +18,7 @@ spec:
         app: fleet-image-scan-test
     spec:
       containers:
-      - image: 172.16.134.14:5000/mhassine/fleet-test:0.0.1 # {"$imagescan": "fleet-test"}
+      - image: registry-conti.fremont.rancherlabs.com:8443/mhassine/fleet-test:0.0.1 # {"$imagescan": "fleet-test"}
         name: fleet-test
         resources: {}
 status: {}
